@@ -1,0 +1,175 @@
+html{
+    font-size: 62.5%;
+    font-family: 'Product Sans';
+}
+body{
+    overflow-x: hidden;
+    padding: 0;
+    margin: 0;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.6rem;
+    box-sizing: border-box;
+    padding: 0.5rem 1rem;
+    color: white;
+    position: fixed;
+    top: 0;
+ z-index: 99;
+    width: 100vw;
+}
+.nav-bar img{
+    width: 80px;
+    height: 80px;
+   
+}
+.nav-bar i{
+    font-size: 2rem;
+    padding: 0 1.7rem;
+}
+nav{
+    font-size: 1.7rem;
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(150deg,orangered,orange);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+.page1 h1{
+    color: white;
+    font-size: 17vw;
+}
+
+.fanta{
+    position: absolute;
+    width: 37%;
+    z-index: 3;
+}
+.orange-slice{
+    position: absolute;  
+    width: 15%;
+    bottom:60%;
+    right: 47%;
+    z-index: 2;
+}
+.coconoutleaf{
+    position: absolute;  
+    width: 25%;
+    bottom: 60%; 
+    right: 0%; 
+}
+.leaf2{
+    position: absolute;  
+    width: 15%; 
+    top: 50%; 
+  right: 5%;
+  transition: all ease 0.5s;
+}
+.full-orange{
+    position: absolute;  
+    width: 24%;  
+    left: 52%; 
+    top: 47%;
+    z-index: 4;
+}
+.leaf1{
+    position: absolute;  
+    width: 14%; 
+    left: 10%; 
+    top: 20%;
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 136, 0);
+    display: flex;
+    justify-content: space-between;
+}
+.page2-left{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.page2-right{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.page2-right p{
+font-size: 1.6rem;
+color: white;
+box-sizing: border-box;
+padding: 0 2rem;
+}
+.page3{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: orangered;
+}
+.boxes{
+    width: 25%;
+    height: 80%;
+    box-sizing:border-box;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.boxes h2{
+    background-color: red;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    width: 30%;
+    border: 1px solid transparent;
+    border-radius: 1rem;
+    position: absolute;
+    bottom:-2%;
+}
+.boxes img{
+    position: absolute;
+}
+.pepsi{
+    width: 90%;
+    right: 10%;
+    top: 10%;
+
+}
+.pepsi-org{
+    width: 60%;
+    left: 5%;
+
+}
+.coc-org{
+    width: 60%;
+    right: 5%;
+}
+.cocacola{
+width: 60%;
+right: 20%;
+top: 15%;
+}
